@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Infra.Data", "Store.Infra.Data\Store.Infra.Data.csproj", "{F1339B9A-426B-4B51-9AC1-DB5407A472BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Tests", "Store.Tests\Store.Tests.csproj", "{2E09F789-0337-4768-A10C-ABEFE428F916}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F1339B9A-426B-4B51-9AC1-DB5407A472BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1339B9A-426B-4B51-9AC1-DB5407A472BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1339B9A-426B-4B51-9AC1-DB5407A472BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E09F789-0337-4768-A10C-ABEFE428F916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E09F789-0337-4768-A10C-ABEFE428F916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E09F789-0337-4768-A10C-ABEFE428F916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E09F789-0337-4768-A10C-ABEFE428F916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +53,7 @@ Global
 		{0CF532EC-AAEE-4594-88E5-A693F0F986A5} = {B7A44780-CA72-4B45-968F-5EFF0EAFC229}
 		{4062B506-9246-4A33-8B25-F8CB15A994CB} = {AE9B368A-8BE2-4AAB-BD3B-55C99A699E9B}
 		{F1339B9A-426B-4B51-9AC1-DB5407A472BE} = {0CF532EC-AAEE-4594-88E5-A693F0F986A5}
+		{2E09F789-0337-4768-A10C-ABEFE428F916} = {5A7A9BEF-EC2A-45EB-820D-8A9BF2B27536}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C94D497-1BF7-4784-933A-D80589AC3921}
