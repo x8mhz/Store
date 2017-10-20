@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Store.Domain.Entities;
-using System.Collections.Generic;
+using System;
 
 namespace Store.Tests
 {
@@ -10,17 +10,11 @@ namespace Store.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            var category = new Category("Placa mãe");
-            var product = new Product("Processador", "Intel I7", 1200, 5, 1);
+            var p = new User("fabricio@hotmail.com", "123", "123");
 
-            var order = new Order(new List<OrderItem>(), 1 );
-            var orderItem = new OrderItem(1, 20);
+            Console.WriteLine("Email: " + p.Email + " Senha: " + p.Password + "Confirmar: " + p.ConfirmPassword);
 
-            order.AddItem(orderItem);
-            
 
-            Assert.AreNotEqual(0, order.OrderItems);
-            
         }
     }
 }
