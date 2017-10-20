@@ -18,7 +18,7 @@ namespace Store.Domain.Validation
             RuleFor(p => p.ConfirmPassword)
                 .NotEmpty().WithMessage("Campo obrigatório")
                 .Length(6, 15).WithMessage("Sua senha deve contar de 6 a 15 caracteres")
-                .Equal(p => p.ConfirmPassword).WithMessage("Senha de confirmação não inválida");
+                .Equal(p => p.Password).WithMessage("Senha de confirmação não inválida");
         }
     }
 }

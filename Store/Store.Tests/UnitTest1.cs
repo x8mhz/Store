@@ -14,6 +14,8 @@ namespace Store.Tests
 
             Console.WriteLine("Email: " + p.Email + " Senha: " + p.Password + "Confirmar: " + p.ConfirmPassword);
 
+            var obj = p;
+
 
         }
     }
